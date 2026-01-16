@@ -1,27 +1,48 @@
-# 📊 Análise de Despesas Pessoais com Python
+# 📊 Análise de Despesas Pessoais com Python (v2.0)
 
-## 📌 Descrição
-Projeto simples de análise de despesas pessoais utilizando Python, com foco em leitura de dados, tratamento de datas, agrupamento por categoria e visualização gráfica.
+Projeto desenvolvido como evolução de um primeiro projeto de análise de despesas,
+com foco em prática real, organização de código e construção de portfólio para GitHub e LinkedIn.
 
-## 🛠️ Tecnologias utilizadas
-- Python
-- Pandas
-- Matplotlib
-- VS Code
+Este projeto representa a **versão 2.0**, com melhorias na estrutura, leitura de dados,
+análises mais completas e visualização gráfica.
 
-## 📂 Estrutura do projeto
-- analise_despesas.py → script principal
-- despesas.csv → base de dados
-- imagens/ → imagens do projeto
+---
 
-## 📈 Resultado
-O projeto gera um resumo das despesas por categoria e um gráfico de barras para visualização dos gastos.
+## 🎯 Objetivo do projeto
+
+Analisar despesas pessoais a partir de um arquivo CSV, realizando:
+
+- Leitura e tratamento de dados
+- Cálculo do total de gastos
+- Análise por categoria
+- Análise por mês
+- Visualização gráfica dos gastos por categoria
+
+---
+
+## 🛠️ Funcionalidades
+
+- Leitura de dados a partir de `despesas.csv`
+- Agrupamento automático por categoria
+- Cálculo do total mensal
+- Geração de gráfico com Matplotlib
+- Código organizado em funções reutilizáveis
+
+---
+
+## 📈 Visualização
+
+Exemplo de gráfico gerado pelo projeto:
 
 ![Gráfico de despesas](imagens/grafico_despesas.png)
 
+---
 
-## 🚀 Próximos passos
-- Melhorar visualização do gráfico
-- Adicionar novas categorias
-- Evoluir para dashboards
+## ▶️ Como executar o projeto
+
+1. Certifique-se de ter o Python instalado
+2. Instale a biblioteca necessária (se ainda não tiver):
+
+```bash
+pip install matplotlib
 
