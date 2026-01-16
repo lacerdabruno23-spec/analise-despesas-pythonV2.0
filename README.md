@@ -34,7 +34,7 @@ Analisar despesas pessoais a partir de um arquivo CSV, realizando:
 
 Exemplo de gráfico gerado pelo projeto:
 
-![Gráfico de despesas](imagens/grafico_despesas.png)
+![Gráfico de despesas](imagens/grafico_despesas.jpeg)
 
 ---
 
